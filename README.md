@@ -40,18 +40,7 @@ Error handling
 
 Libraries like NumPy, pandas, matplotlib (for advanced students)
 
-📂 How to Use
 
-Clone this repo:
-
-bash
-Copy code
-git clone https://github.com/yourusername/python-course-repo.git
-Explore the folders:
-Each folder corresponds to a topic or module in the course.
-
-Run the code:
-Use any Python IDE or run scripts directly from the terminal.
 
 📬 Stay Connected
 If you’re one of my students, feel free to reach out with questions or suggestions.
