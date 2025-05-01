@@ -4,6 +4,7 @@ Welcome to my Python Course Repository!
 This repo contains all the course materials, notes, code examples, and practice exercises I use as a Python tutor. Whether you’re a complete beginner or looking to strengthen your Python skills, you’ll find helpful resources here.
 
 📦 What’s Inside
+
 ✅ Lecture notes
 https://docs.google.com/document/d/1q_IcHJ6ge9M6ETX-2Z_BQRXuOh0I23m7dfgBHxU8gcE/edit?usp=sharing
 
