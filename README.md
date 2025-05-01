@@ -5,7 +5,7 @@ This repo contains all the course materials, notes, code examples, and practice 
 
 📦 What’s Inside
 
-✅ Lecture notes
+✅ Lecture notes-
 https://docs.google.com/document/d/1q_IcHJ6ge9M6ETX-2Z_BQRXuOh0I23m7dfgBHxU8gcE/edit?usp=sharing
 
 ✅ Code examples
@@ -17,9 +17,11 @@ https://docs.google.com/document/d/1q_IcHJ6ge9M6ETX-2Z_BQRXuOh0I23m7dfgBHxU8gcE/
 ✅ Extra resources & references
 
 🚀 Who is this for?
+
 This repository is for students enrolled in my Python courses — from beginners learning Python basics to intermediate learners improving their coding and problem-solving skills.
 
 💻 Topics Covered
+
 Python syntax & basics
 
 Variables, data types, and operators
@@ -39,6 +41,7 @@ Error handling
 Libraries like NumPy, pandas, matplotlib (for advanced students)
 
 📂 How to Use
+
 Clone this repo:
 
 bash
