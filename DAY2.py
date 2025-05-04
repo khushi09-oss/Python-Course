@@ -7,7 +7,7 @@ print(type(x))
 item="apple" #n-1
 print(item[0:5])
 print(len(item))
-print(item[2:5]) #[Upperbound:Lowerbound]
+print(item[2:5]) #[Upperbound:step:Lowerbound]
 print(item[:5])
 print(item[1:])
 print(item[-5:])
