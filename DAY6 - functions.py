@@ -53,11 +53,38 @@ def number2(*, x):
 number2(x=10)
 
 #recursion
-def recursion(x):
-    if (x>0):
-        result = x + recursion(x - 1)
-        print(result)
-    else:
-        result=0
-        return result
-recursion(3)
+def tri_recursion(k):
+  if k > 0:
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("Recursion Example Results:")
+tri_recursion(6)
+
+#it loops over the value of 6 recursively until the value hits 0 i.e 6->5->4->3->2->1->0 ends
+#then it stacks value of each one by one over each
+#the loop runs until k>0 is true therefor it runs until the value hits 0 and creates a stack of values to perform the function on.
+"""tri_recursion(1): 1 + 0 → 1 → print(1) → return 1
+tri_recursion(2): 2 + 1 → 3 → print(3) → return 3
+tri_recursion(3): 3 + 3 → 6 → print(6) → return 6
+tri_recursion(4): 4 + 6 →10 → print(10) → return10
+tri_recursion(5): 5 +10 →15 → print(15) → return15
+tri_recursion(6): 6 +15 →21 → print(21) → return21
+------
+#simpler explanation.
+You put block 1 → you have 1 block → you say 1.
+
+You put block 2 → now you have 1 + 2 = 3 blocks → you say 3.
+
+You put block 3 → 3 + 3 = 6 → you say 6.
+
+You put block 4 → 6 + 4 = 10 → you say 10.
+
+You put block 5 → 10 + 5 = 15 → you say 15.
+
+You put block 6 → 15 + 6 = 21 → you say 21.
+"""
+
