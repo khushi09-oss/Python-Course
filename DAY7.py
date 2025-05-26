@@ -25,11 +25,46 @@ def linux_interaction():
         raise RuntimeError("Function can only run on Linux systems.")
     print("Doing Linux things.")
 
-try:
+"""try:
     linux_interaction()
 except RuntimeError as e:
     print(e)
-    print("Something went wrong.")
+    print("Something went wrong.")"""
+graph = {
+    1: [2, 3, None],
+    2: [4, None],
+    3: [None],
+    4: [5, 6, None],
+    5: [6, None],
+    6: [None]
+ }
+print(graph)
+
+from collections import deque
+deque(['a','b','c'])
+print(deque(['a','b','c']))
+deque('abc')
+print(deque('abc'))
+deque([{'data': 'a'}, {'data': 'b'}])
+print(deque([{'data': 'a'}, {'data': 'b'}]))
+
+llist = deque("abcde")
+print(llist)
+
+
+llist.append("f")
+print(llist)
+
+
+print(llist.pop())
+
+
+print(llist)
+
+
+
+
+
 
 
 
