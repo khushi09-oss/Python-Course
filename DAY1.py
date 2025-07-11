@@ -1,13 +1,19 @@
-#variables
+"""#variables/identifier 
 item="apple" #string
-price=20 #integer
-price=10.0 #float
-print("the item is",item) #printing the variable with a sentence
-#to see the data type of  variable
-print(type(item))
-print(type(price))
+price=20 #integers are whole number
+price2=10.0 #float are decimal point numbers
+boolean=True #boolean value
 
-#Multiple variable assignment - assigning multiple values to different variables at once or a single value to different variables at once
+print("the item is",item) #printing the variable with a sentence
+print("the price of", item, "is", price)"""
+
+"""#to see the data type of  variable
+item="apple" 
+price=20
+print(type(item))
+print(type(price))"""
+
+"""#Multiple variable assignment - assigning multiple values to different variables at once or a single value to different variables at once
 Type1, Type2, Type3 = "Dum Biryani", "Hyd Biryani", "Lucknowi Biryani"
 print(Type1)
 #single value to multiple varaibles
@@ -25,8 +31,13 @@ print(type(age))
 
 marks= float(input("Enter your marks"))
 print("Your marks is",marks)
-print(type(marks))
+print(type(marks))"""
 
+list=[1,2,3,4,5]
+if 6 in list:
+    print("yes")
+else:
+    print("no")
 
 
 
